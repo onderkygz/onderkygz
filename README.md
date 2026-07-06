@@ -1,6 +1,6 @@
 # Merhaba, ben Önder Kaygusuz 👋
 
-![Cover](assets/brand/cover-github-1280x640.png)
+![Cover](assets/brand/onder-kaygusuz_github-barner.gif)
 
 Proses Mühendisliği Yöneticisi, İK Lideri ve ISO 9001 Baş Denetçisi olarak **süreç + insan + dönüşüm** odağında çalışıyorum.
 
