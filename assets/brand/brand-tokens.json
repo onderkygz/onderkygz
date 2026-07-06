@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Onder Kaygusuz Personal Brand",
+    "positioning": "Süreç + İnsan + Dönüşüm",
+    "tone": ["Güvenilir", "Sistematik", "Modern", "Veri odaklı"]
+  },
+  "colors": {
+    "primary": {
+      "900": "#0F172A",
+      "700": "#1E293B"
+    },
+    "secondary": {
+      "700": "#0E7490",
+      "500": "#14B8A6"
+    },
+    "accent": {
+      "500": "#F59E0B",
+      "300": "#FCD34D"
+    },
+    "neutral": {
+      "50": "#F8FAFC",
+      "200": "#E2E8F0"
+    }
+  },
+  "usage": {
+    "ratio": {
+      "primary": "70%",
+      "secondary": "20%",
+      "accent": "10%"
+    }
+  },
+  "typography": {
+    "heading": {
+      "family": "Sora",
+      "weights": [600, 700]
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [400, 500]
+    }
+  },
+  "iconStyle": {
+    "style": "line-duotone",
+    "strokeWidth": 2,
+    "cornerRadius": "rounded",
+    "metaphor": "flow + human"
+  }
+}
