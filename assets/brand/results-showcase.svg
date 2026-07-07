@@ -1,0 +1,44 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Concrete achievements animation">
+  <defs>
+    <linearGradient id="gr" x1="20" y1="0" x2="1180" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.45" stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="#F8FAFC"/>
+
+  <rect x="40" y="40" width="350" height="180" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <text x="215" y="74" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#065F46">Ornek #1 Otomasyon</text>
+  <text x="215" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#065F46">16s -> 1s</text>
+  <text x="215" y="126" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#065F46">Haftalik zaman kazanci</text>
+  <text x="215" y="148" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#065F46">Hata: %5 -> %0.1</text>
+  <text x="215" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#065F46">Yillik 1000+ saat tasarruf</text>
+  <circle cx="80" cy="70" r="8" fill="#10B981">
+    <animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="425" y="40" width="350" height="180" rx="12" fill="#E0F2FE" stroke="#0E7490" stroke-width="2"/>
+  <text x="600" y="74" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#0C4A6E">Ornek #2 Veri ile Karar</text>
+  <text x="600" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#0C4A6E">8h -> 5h</text>
+  <text x="600" y="126" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#0C4A6E">Ise alim suresi</text>
+  <text x="600" y="148" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#0C4A6E">Basari: %65 -> %88</text>
+  <text x="600" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#0C4A6E">Daha tutarli secim</text>
+  <circle cx="465" cy="70" r="8" fill="#0E7490">
+    <animate attributeName="r" values="7;11;7" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="810" y="40" width="350" height="180" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="985" y="74" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#92400E">Ornek #3 Surec Verimliligi</text>
+  <text x="985" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#92400E">30g -> 12g</text>
+  <text x="985" y="126" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#92400E">Dongu suresi</text>
+  <text x="985" y="148" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#92400E">%100 denetlenebilir akis</text>
+  <text x="985" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#92400E">Bottleneck temizlendi</text>
+  <circle cx="850" cy="70" r="8" fill="#F59E0B">
+    <animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M40 236H1160" stroke="url(#gr)" stroke-width="4" stroke-linecap="round" stroke-dasharray="24 16">
+    <animate attributeName="stroke-dashoffset" values="0;40" dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>

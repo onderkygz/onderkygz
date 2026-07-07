@@ -87,6 +87,8 @@ Veri kaynakları → İşleme (Python/Analytics/Automation) → Çıktı (BI/Rep
 
 ### Boşluk #1: Manual Süreçler → Otomasyon
 
+![Gap 1 automation](assets/brand/gap1-automation.svg)
+
 | Geleneksel | Benim Yaklaşımım |
 |-----------|-----------------|
 | "Bunu Excel'de yapıyoruz" | Python scripti, veri otomasyonu, düzenli akış |
@@ -94,6 +96,8 @@ Veri kaynakları → İşleme (Python/Analytics/Automation) → Çıktı (BI/Rep
 | İnsan hatası riski | Sistemli, kontrollü, denetlenebilir iş akışı |
 
 ### Boşluk #2: Sezgiye Dayalı Kararlar → Veri Destekli Stratejiler
+
+![Gap 2 data strategy](assets/brand/gap2-data-strategy.svg)
 
 | Geleneksel | Benim Yaklaşımım |
 |-----------|-----------------|
@@ -103,6 +107,8 @@ Veri kaynakları → İşleme (Python/Analytics/Automation) → Çıktı (BI/Rep
 
 ### Boşluk #3: Dağınık Iş Akışları → Entegre Sistem Bakışı
 
+![Gap 3 flow integration](assets/brand/gap3-flow-integration.svg)
+
 | Geleneksel | Benim Yaklaşımım |
 |-----------|-----------------|
 | Her departman kendi sürecini koşuyor | Bütün resmi görüp bağlantıları kur |
@@ -110,6 +116,8 @@ Veri kaynakları → İşleme (Python/Analytics/Automation) → Çıktı (BI/Rep
 | Gecikmeler ve bottleneck'ler | Akışa odaklan, engelleri kaldır, hız artır |
 
 ### Boşluk #4: Tek Disiplin Çözümleri → Çok Disiplin Bakışı
+
+![Gap 4 multi discipline](assets/brand/gap4-multi-discipline.svg)
 
 | Geleneksel | Benim Yaklaşımım |
 |-----------|-----------------|
@@ -122,6 +130,8 @@ Veri kaynakları → İşleme (Python/Analytics/Automation) → Çıktı (BI/Rep
 ---
 
 ## 📈 Somut Örnekler & Başarılar
+
+![Results showcase](assets/brand/results-showcase.svg)
 
 ### Örnek #1: Otomasyon ile Zaman Tasarrufu
 **Durum:** Personel dosyaları, raporlar, uygunluk kontrolleri haftada 16 saati manuel işlem.  
