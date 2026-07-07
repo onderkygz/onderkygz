@@ -31,10 +31,24 @@
 
 ---
 
+## 🎯 Becerilerim Merkez Etrafında Döner
+
+![Skills network](assets/brand/skills-network.svg)
+
+Tüm yeteneklerim merkezi "Benim" etrafında bağlantılı. Hiçbir beceri izole değil - herbiri diğerini güçlendirir. Python veri alır, SQL'le analiz eder, Power BI ile sunar, BPMN'le sistematikleşir, HTML'le iletişim kurar.
+
+---
+
 ## 💡 Benim Teknoloji Yolculuğum
 
 ### Nereden Başladım
 Proses mühendisliği, kalite yönetimi ve insan kaynakları altyapısında 10+ yıl deneyim. **Sorun:** İşler veri-ağır, tekrarlayan, manuel, hata-eğilimli. **Çözüm:** Teknolojiyi öğrenip işi değiştir.
+
+### Deneyim Süreci
+
+![Experience timeline](assets/brand/experience-timeline.svg)
+
+Her adım önceki tecrübenin üzerine inşa edildi. 2014'teki mezuniyetle başlayan yolculuk, bugün teknoloji + insan + süreç sinerji yaratıyor.
 
 ### Şimdiki Silahım
 
@@ -59,9 +73,17 @@ class MisalAkışı:
 - 🤖 **AI Araçları & Prompt Mühendisliği** → ChatGPT, Claude, Copilot ile iş otomasyonu ve hızlandırma
 - 📋 **Süreç Tasarımı & Modelleme** → BPMN, değer akışı, iş akışı tasarımı, iyileştirme metodolojileri
 
+### Teknoloji Stack'im Nasıl Çalışır?
+
+![Tech stack flow](assets/brand/tech-stack-flow.svg)
+
+Veri kaynakları → İşleme (Python/Analytics/Automation) → Çıktı (BI/Report/Action) → Karar & Eylem → Döngü tekrarlansın. Hiçbir veri boşa gitmez; her veri birine bir öneriye dönüşür.
+
 ---
 
 ## 🎯 Geleneksel Sektöre Kıyasla Benim Farkım
+
+![Problem-solution transformation](assets/brand/problem-solution-map.svg)
 
 ### Boşluk #1: Manual Süreçler → Otomasyon
 
@@ -94,6 +116,8 @@ class MisalAkışı:
 | "Bu İK sorunu" / "Bu operasyon sorunu" | Köke git: insan + süreç + veri = sorun |
 | Kısmi çözümler | Bütünsel yaklaşım, uzun süreli etki |
 | Süreçten kopuk insan yönetimi | İnsan + sistem uyumlu tasarım |
+
+**Animasyonda gördüğünüz 4 dönüşüm, her biri ölçülebilir, her biri kanıtlanmış.**
 
 ---
 

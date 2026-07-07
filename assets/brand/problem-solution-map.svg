@@ -1,0 +1,123 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Problem-solution transformation animation">
+  <defs>
+    <linearGradient id="transformGrad" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DC2626"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="transformGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#10B981"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" rx="24" fill="#F8FAFC"/>
+
+  <!-- Title -->
+  <text x="50" y="35" font-family="Inter, Arial" font-size="14" font-weight="700" fill="#0F172A">Dört Açığı Kapatan Dönüşüm Hikayem</text>
+
+  <!-- ROW 1: Manual → Automation -->
+  <g>
+    <!-- Problem -->
+    <rect x="50" y="70" width="200" height="100" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" filter="url(#transformGlow)"/>
+    <text x="150" y="95" text-anchor="middle" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#DC2626">❌ MANUEL</text>
+    <text x="150" y="115" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">Excel ve el işi</text>
+    <text x="150" y="130" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">16 saat/hafta</text>
+    <text x="150" y="145" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">%5 hata riski</text>
+
+    <!-- Transform arrow -->
+    <path d="M260 120 Q400 80 500 120" stroke="url(#transformGrad)" stroke-width="3" fill="none" marker-end="url(#arrowGreen)" stroke-dasharray="20 10">
+      <animate attributeName="stroke-dashoffset" values="0;30" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <text x="380" y="75" text-anchor="middle" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#0E7490">Python</text>
+    <text x="380" y="88" text-anchor="middle" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#0E7490">Otomasyon</text>
+
+    <!-- Solution -->
+    <rect x="530" y="70" width="200" height="100" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#transformGlow)"/>
+    <text x="630" y="95" text-anchor="middle" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#10B981">✅ OTOMATIK</text>
+    <text x="630" y="115" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">Script çalıştır</text>
+    <text x="630" y="130" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">1 saat/hafta</text>
+    <text x="630" y="145" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">%0.1 hata</text>
+
+    <!-- Result badge -->
+    <rect x="800" y="70" width="150" height="100" rx="8" fill="#DBEAFE" stroke="#0E7490" stroke-width="2"/>
+    <text x="875" y="95" text-anchor="middle" font-family="Inter, Arial" font-size="11" font-weight="700" fill="#0E7490">📊 SONUÇ</text>
+    <text x="875" y="115" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">94% verimlilik</text>
+    <text x="875" y="130" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">1000+ saat/yıl</text>
+    <text x="875" y="145" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">tasarruf</text>
+  </g>
+
+  <!-- ROW 2: Subjective → Data-Driven -->
+  <g>
+    <!-- Problem -->
+    <rect x="50" y="210" width="200" height="100" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" filter="url(#transformGlow)"/>
+    <text x="150" y="235" text-anchor="middle" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#DC2626">❌ SUBJEKTİF</text>
+    <text x="150" y="255" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">Sezgiye dayalı</text>
+    <text x="150" y="270" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">Karar tutarsız</text>
+    <text x="150" y="285" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">Başarı %65</text>
+
+    <!-- Transform arrow -->
+    <path d="M260 260 Q400 220 500 260" stroke="url(#transformGrad)" stroke-width="3" fill="none" marker-end="url(#arrowGreen)" stroke-dasharray="20 10">
+      <animate attributeName="stroke-dashoffset" values="5;35" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <text x="380" y="205" text-anchor="middle" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#0E7490">SQL + BI</text>
+    <text x="380" y="218" text-anchor="middle" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#0E7490">Metrikleme</text>
+
+    <!-- Solution -->
+    <rect x="530" y="210" width="200" height="100" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#transformGlow)"/>
+    <text x="630" y="235" text-anchor="middle" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#10B981">✅ DATA-DRIVEN</text>
+    <text x="630" y="255" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">Metrik tabanlı</text>
+    <text x="630" y="270" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">Karar tutarlı</text>
+    <text x="630" y="285" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">Başarı %88</text>
+
+    <!-- Result badge -->
+    <rect x="800" y="210" width="150" height="100" rx="8" fill="#DBEAFE" stroke="#0E7490" stroke-width="2"/>
+    <text x="875" y="235" text-anchor="middle" font-family="Inter, Arial" font-size="11" font-weight="700" fill="#0E7490">📊 SONUÇ</text>
+    <text x="875" y="255" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">+23% başarı</text>
+    <text x="875" y="270" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">3 hafta daha</text>
+    <text x="875" y="285" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">hızlı (5 hafta)</text>
+  </g>
+
+  <!-- ROW 3: Fragmented → Unified -->
+  <g>
+    <!-- Problem -->
+    <rect x="50" y="350" width="200" height="100" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" filter="url(#transformGlow)"/>
+    <text x="150" y="375" text-anchor="middle" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#DC2626">❌ DAĞINIK</text>
+    <text x="150" y="395" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">Her dept kendi süreci</text>
+    <text x="150" y="410" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">30 gün döngü</text>
+    <text x="150" y="425" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#7F1D1D">Bottleneck'ler var</text>
+
+    <!-- Transform arrow -->
+    <path d="M260 400 Q400 360 500 400" stroke="url(#transformGrad)" stroke-width="3" fill="none" marker-end="url(#arrowGreen)" stroke-dasharray="20 10">
+      <animate attributeName="stroke-dashoffset" values="10;40" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+    <text x="380" y="345" text-anchor="middle" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#0E7490">BPMN Tasarımı</text>
+    <text x="380" y="358" text-anchor="middle" font-family="Inter, Arial" font-size="10" font-weight="600" fill="#0E7490">Entegrasyon</text>
+
+    <!-- Solution -->
+    <rect x="530" y="350" width="200" height="100" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="2" filter="url(#transformGlow)"/>
+    <text x="630" y="375" text-anchor="middle" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#10B981">✅ ENTEGRE</text>
+    <text x="630" y="395" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">Bütün akış görünür</text>
+    <text x="630" y="410" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">12 gün döngü</text>
+    <text x="630" y="425" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#065F46">Akış düzgün</text>
+
+    <!-- Result badge -->
+    <rect x="800" y="350" width="150" height="100" rx="8" fill="#DBEAFE" stroke="#0E7490" stroke-width="2"/>
+    <text x="875" y="375" text-anchor="middle" font-family="Inter, Arial" font-size="11" font-weight="700" fill="#0E7490">📊 SONUÇ</text>
+    <text x="875" y="395" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">60% hızlandı</text>
+    <text x="875" y="410" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">Bottleneck'ler</text>
+    <text x="875" y="425" text-anchor="middle" font-family="Inter, Arial" font-size="10" fill="#0C4A6E">kaldırıldı</text>
+  </g>
+
+  <!-- Legend -->
+  <g font-family="Inter, Arial" font-size="11" fill="#475569">
+    <text x="50" y="490">💡 Her dönüşüm: Problem + Teknoloji + Ölçülebilir Sonuç. Hikaye veride.</text>
+  </g>
+</svg>
