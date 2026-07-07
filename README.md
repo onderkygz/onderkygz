@@ -392,7 +392,7 @@ Eğer bu düşünce tarzı sizinle rezonans yapıyorsa; **hadi konuşalım!**
 ---
 
 <sub>
-💡 Bu profil aktif olarak geliştirilmektedir. Son güncelleme: 2024  
+💡 Bu profil aktif olarak geliştirilmektedir. Son güncelleme: 2026  
 🔗 Tüm bağlantılarım yukarıda ve her zaman açık  
 🙌 Birlikte bir şeyler inşa etmeyi severim
 </sub>
