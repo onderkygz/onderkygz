@@ -4,7 +4,7 @@
 
 > **İnsan + Süreç + Teknoloji = Dönüşüm**  
 > Proses Mühendisliği Yöneticisi | İK Lideri | ISO 9001 Baş Denetçisi  
-> **Teknoloji ile İş Akışlarını Hızlandıran, Veriyi Kara Dönüştüren, Ekipleri Güçlendiren**
+> **Teknoloji ile İş Akışlarını Hızlandıran, Veriyi Bilgiye Dönüştüren, Ekipleri Güçlendiren**
 
 ---
 
